@@ -1,0 +1,21 @@
+#content{
+    padding: 5vh 3vw 0 3vw;
+    height: auto;
+    .add_menu{
+        form{
+            margin: 5vh 3vw 0 0;
+        }
+    }
+    .res_watch{
+        display: none;
+        .img_box{
+            float: none;
+            margin-bottom: 3vh;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    
+}

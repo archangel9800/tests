@@ -1,0 +1,22 @@
+#header {
+    .buttons{
+        cursor: pointer;
+        span{
+            display: block;
+            padding: 5px 10px; 
+        }
+        &:after{
+            transition: all 0.5s;
+            display: block;
+            content: "";
+            width: 0%;
+            border-bottom: 1px solid #0474bc;
+        }
+        &:hover:after{
+            display: block;
+            content: "";
+            width: 100%;
+            border-bottom: 1px solid #0474bc;
+        }
+    }
+}

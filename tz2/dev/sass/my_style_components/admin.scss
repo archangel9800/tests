@@ -1,0 +1,51 @@
+#content_adm{
+    
+    #users_list{
+        #id_user, #id_task{
+            height: 35vh;
+            option{
+                &:hover{
+                    background-color: aquamarine;
+                }
+            }
+        }
+        }
+    #task_list{
+        #id_task{
+            height: 35vh;
+            option{
+                &:hover{
+                    background-color: aquamarine;
+                }
+            }
+               
+        }
+            
+    }
+    #task_redactor{
+        button{
+            margin-top: 0.5vh;
+        }
+        textarea{
+            height: 13vh;
+        }
+        #check_Status{
+            label{
+                margin-top: 0;
+                margin-bottom: 0.3vh;
+            }
+        }
+        .img_box{
+            float: none;
+            margin-bottom: 3vh;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        p{
+            margin-bottom: 0.3vh;
+        }
+    }
+        
+}

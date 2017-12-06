@@ -1,0 +1,47 @@
+#menu{
+    min-width: 300px;
+    .nav-extended{
+       background-color: rgba(0, 0, 0, 0.3);
+        padding: 0;
+        height: auto !important;
+        .nav-wrapper{
+            height: auto;
+            .button-collapse{
+                height: auto;
+                line-height: normal;
+                padding: 1.5vh 0 1.5vh 0;
+                i{
+                   height: auto;
+                   line-height: normal;
+                    color: gainsboro;
+                }
+            }
+            #nav-mobile{
+                line-height: normal;
+                li{
+                    height: auto;
+                    &:hover{
+                        background-color: rgba(0, 0, 0, 0.4);
+                    }
+                    a{
+                        padding: 1.5vh 1.2vw 1.5vh 1.2vw;
+                        height: auto;
+                        color: gainsboro;
+                    }
+                }
+            }
+            .side-nav{
+                background-color: rgba(0, 0, 0, 0.1);
+                li{
+                    &:hover{
+                        background-color: rgba(0, 0, 0, 0.4);
+                    }
+                    a{
+                        color: white;
+                        color: gainsboro;
+                    }
+                }
+            }
+        }
+    } 
+}
