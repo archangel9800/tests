@@ -1,4 +1,13 @@
-body{
+@font-face {
+        font-family: roboto;
+        src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+* {
+  font-family:inherit;
+}
+body {
+    font-family: roboto;
+}
     .containers {
         padding: 15px 10px;
     }
@@ -14,6 +23,9 @@ body{
     .blueFnt{
         color: #0474bc;
     }
+    .greyFnt{
+        color: #797979;
+    }
     .tDN{
         text-decoration: none;
     }
@@ -23,8 +35,22 @@ body{
     .font18{
         font-size: 18px;
     }
-    
-    
-    
-}
+    .font16{
+        font-size: 16px;
+    }
+    .greyline {
+            border-bottom: 1px solid #797979;
+    }
+    .lineTxt{
+        padding: 0 25px;
+    }
+    .mAuto{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .borderBT{
+        border-top: 1px solid transparent; 
+        border-bottom: 1px solid transparent; 
+    }
+
 

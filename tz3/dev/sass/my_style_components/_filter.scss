@@ -1,0 +1,49 @@
+#filter{
+    .filterHead{
+        padding-bottom: 25px;
+        @media only screen and (min-width: 640px){
+            padding-bottom: 50px;
+        }
+    }
+    .filterBtns{
+        padding-bottom: 20px;
+        @media only screen and (min-width: 640px){
+            padding-bottom: 40px;
+        }
+        .buttons{
+            transition: all 0.3s;
+            cursor: pointer;
+            border: 1px solid #0474bc;
+            border-radius: 3px;
+            &:hover{
+                background-color: #0474bc;
+            }
+            span{
+                transition: all 0.3s;
+                display: block;
+                padding: 8px 15px;
+                color: #fff;
+            }
+            &:hover span{
+                color: #fff;
+            }
+        }
+        .btn1{
+                background-color: #0474bc;
+        }
+        .btn2{
+                margin-left: 20px;
+        }
+        .btn2 span{
+                color: #0474bc;
+        }  
+        
+    
+    }
+    .imgBl{
+        img{
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+}

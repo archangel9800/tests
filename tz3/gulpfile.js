@@ -55,7 +55,9 @@ gulp.task('sass', function(){
 gulp.task('move', function(){
 	gulp.src('dev/fonts/**/*.*').pipe(gulp.dest('build/fonts/')).pipe(reload({stream:true}));
 	gulp.src('dev/js/*.js').pipe(gulp.dest('build/js/')).pipe(reload({stream:true}));
-    gulp.src('dev/img/images/*.*').pipe(gulp.dest('build/img/images/')).pipe(reload({stream:true}));
+   gulp.src('dev/img/icons/png/*.*').pipe(gulp.dest('build/img/icons/png/')).pipe(reload({stream:true})); 
+
+    gulp.src('dev/img/img/*.*').pipe(gulp.dest('build/img/img/')).pipe(reload({stream:true}));
 	console.log('Moved'); 
 });
 

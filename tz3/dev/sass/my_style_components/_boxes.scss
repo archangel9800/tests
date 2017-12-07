@@ -1,0 +1,23 @@
+#boxes{
+    padding: 40px 10px 20px 10px;
+    @media only screen and (min-width: 640px){
+        padding: 80px 10px 60px 10px;
+    }
+    .boxesHead{
+        padding-bottom: 30px;
+        @media only screen and (min-width: 640px){
+            padding-bottom: 60px;
+        }
+    }
+    .boxesBl{
+        .greyBoxes{
+            background-color: #dedede;
+            border-radius: 10px;
+            padding: 25px;
+            color: #797979;
+            font-size: 14px;
+            line-height: 1.5em;
+            margin-bottom: 20px;
+        }
+    }
+}
