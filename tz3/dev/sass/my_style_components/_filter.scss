@@ -1,49 +1,54 @@
-#filter{
-    .filterHead{
+/////////////////////filter start/////////////////////
+#filter {
+    .filterHead {
         padding-bottom: 25px;
-        @media only screen and (min-width: 640px){
+        @media only screen and (min-width: 640px) {
             padding-bottom: 50px;
         }
     }
-    .filterBtns{
+    .filterBtns {
         padding-bottom: 20px;
-        @media only screen and (min-width: 640px){
+        @media only screen and (min-width: 640px) {
             padding-bottom: 40px;
         }
-        .buttons{
+        .buttons {
             transition: all 0.3s;
             cursor: pointer;
             border: 1px solid #0474bc;
             border-radius: 3px;
-            &:hover{
+            &:hover {
                 background-color: #0474bc;
             }
-            span{
+            span {
                 transition: all 0.3s;
                 display: block;
                 padding: 8px 15px;
-                color: #fff;
-            }
-            &:hover span{
-                color: #fff;
-            }
-        }
-        .btn1{
-                background-color: #0474bc;
-        }
-        .btn2{
-                margin-left: 20px;
-        }
-        .btn2 span{
                 color: #0474bc;
-        }  
-        
-    
+            }
+            &:hover span {
+                color: #fff;
+            }
+            &:last-child {
+                margin-left: 20px;
+            }
+        }
+        .activeBtn {
+            background-color: #0474bc;
+            span {
+                color: #fff;
+            }
+        }
+
+
     }
-    .imgBl{
-        img{
-            display: block;
+    .imgBl {
+        .imgCont {
+            display: none;
             margin-bottom: 10px;
+        }
+        .visible {
+            display: block;
         }
     }
 }
+/////////////////////filter end/////////////////////

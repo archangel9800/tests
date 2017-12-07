@@ -1,4 +1,5 @@
-#blueBlock{
+/////////////////////blueBlock start/////////////////////
+#blueBlock {
     height: 250px;
     background-image: -ms-linear-gradient(left, #0474BC 0%, #32b3ed 100%);
     background-image: -moz-linear-gradient(left, #0474BC 0%, #32b3ed 100%);
@@ -6,13 +7,14 @@
     background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0474BC), color-stop(100, #32b3ed));
     background-image: -webkit-linear-gradient(left, #0474BC 0%, #32b3ed 100%);
     background-image: linear-gradient(to right, #0474BC 0%, #32b3ed 100%);
-    @media only screen and (min-width: 480px){
+    @media only screen and (min-width: 480px) {
         height: 400px;
     }
-    h1{
+    h1 {
         font-size: 35px;
-        @media only screen and (min-width: 480px){
+        @media only screen and (min-width: 480px) {
             font-size: 45px;
         }
     }
 }
+/////////////////////blueBlock end/////////////////////
